@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(238, 238, 238, 0.685);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.177);
+  border-radius: 10px;
+  width: 80%;
+  height: auto;
+  padding: 32px 10px;
+}
+.container .header {
+  text-align: center;
+  color: rgb(86, 86, 86);
+  font-weight: 500;
+  font-size: clamp(1.125rem, 0.9844rem + 0.75vw, 1.875rem);
+}
+.container form {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: first baseline;
+}
+.container .field {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  margin: 4px;
+}
+.container .field input {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.container .field input::placeholder {
+  font-size: 12px;
+}
+.container form :nth-child(5) input::placeholder,
+.container form :nth-child(6) input::placeholder,
+.container form :nth-child(7) input::placeholder {
+  font-size: 9px;
+}
+.container form .btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+  background-color: white;
+  opacity: 0.9;
+  transition: all 0.2s ease-in-out;
+}
+.container form .btn:hover {
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.675);
+  color: white;
+}
+.container form .field input::placeholder {
+  opacity: 0.9;
+}
+.container form .field input:focus {
+  border: 1px solid rgba(128, 128, 128, 0.675);
+}

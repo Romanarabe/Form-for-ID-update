@@ -1,0 +1,22 @@
+@media (min-width: 649px) {
+  .container form :nth-child(5) input::placeholder,
+  .container form :nth-child(6) input::placeholder,
+  .container form :nth-child(7) input::placeholder {
+    font-size: 12px;
+  }
+  .container {
+    width: 80%;
+  }
+  .container form {
+    width: 70%;
+  }
+}
+@media (min-width: 700px) {
+  .container {
+    max-width: 400px;
+    padding: 15px 10px;
+  }
+  .container form {
+    width: 90%;
+  }
+}
