@@ -2,13 +2,13 @@
   .container form :nth-child(5) input::placeholder,
   .container form :nth-child(6) input::placeholder,
   .container form :nth-child(7) input::placeholder {
-    font-size: 12px;
+    font-size: 10px;
   }
   .container {
     width: 80%;
   }
   .container form {
-    width: 70%;
+    width: 98%;
   }
 }
 @media (min-width: 700px) {

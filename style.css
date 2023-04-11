@@ -43,6 +43,10 @@ body::after {
   font-weight: 500;
   font-size: clamp(1.4375rem, 1.3555rem + 0.4375vw, 1.875rem);
 }
+.container .reminder {
+  text-align: center;
+  font-size: 12px;
+}
 .container form {
   margin: 10px 0;
   display: flex;
@@ -59,7 +63,7 @@ body::after {
 .container .field input {
   height: 100%;
   width: 100%;
-  padding: 10px;
+  padding: 5px 10px;
   border-radius: 5px;
   border: none;
   outline: none;
